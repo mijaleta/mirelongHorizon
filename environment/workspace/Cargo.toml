@@ -1,0 +1,10 @@
+[package]
+name = "jqlite"
+version = "0.1.0"
+edition = "2021"
+
+# No external crates: the environment has no network access.
+[dependencies]
+
+[profile.release]
+opt-level = 2
